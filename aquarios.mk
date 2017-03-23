@@ -1,7 +1,7 @@
 $(call inherit-product, device/samsung/jfltevzw/full_jfltevzw.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+# Inherit some common Aquarios stuff.
+$(call inherit-product, vendor/aquarios/config/common_full_phone.mk)
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
   PRODUCT_NAME=jfltevzw \
@@ -11,6 +11,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 PRODUCT_GMS_CLIENTID_BASE := android-verizon
 
-PRODUCT_NAME := lineage_jfltevzw
+PRODUCT_NAME := aquarios_jfltevzw
 PRODUCT_DEVICE := jfltevzw
 
